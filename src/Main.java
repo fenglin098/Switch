@@ -20,8 +20,8 @@ public class Main {
                 case 28:
                     monthName = "February";
                     break;
-                default:
-                    throw new IllegalStateException("Unexpected value: " + numDays);
+                default: monthName = "Unknown";
+                    break;
             }
             System.out.println(monthName);
         }
